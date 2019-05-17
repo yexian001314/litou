@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/retry_view"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/errorStateImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_200"
+        android:src="@drawable/error"/>
+
+    <TextView
+        android:id="@+id/errorStateTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/errorStateImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="加载错误"
+        android:textColor="#567A92"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/errorStateOperationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/errorStateTitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="请点击屏幕重试"
+        android:textColor="#567A92"
+        android:textSize="16sp"/>
+    
+</RelativeLayout>

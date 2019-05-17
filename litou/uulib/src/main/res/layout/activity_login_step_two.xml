@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    tools:context=".account.LoginStepTwoActivity">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_80"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_18"
+        app:riv_corner_radius="50dp"
+        android:src="@mipmap/app_launcher"/>
+    <TextView
+        android:id="@+id/tv_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_16"
+        android:textSize="@dimen/sp_16"
+        android:textColor="#333333"
+        tools:text="15757177302"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_46"
+        android:layout_marginTop="@dimen/dp_32"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/tv_login_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:text="@string/login_pwd"
+            android:textColor="#333333"
+            android:textSize="@dimen/sp_14"/>
+        <EditText
+            android:id="@+id/et_login_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_alignBaseline="@+id/tv_login_pwd"
+            android:layout_toRightOf="@id/tv_login_pwd"
+            android:layout_marginLeft="@dimen/dp_14"
+            android:background="@null"
+            android:textSize="@dimen/sp_14"
+            android:hint="@string/please_input_login_pwd"
+            android:inputType="textPassword"
+            android:maxLength="15" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_46"
+        android:layout_marginTop="@dimen/dp_28"
+        android:layout_marginLeft="@dimen/dp_14"
+        android:layout_marginRight="@dimen/dp_14"
+        android:text="@string/login"
+        android:textSize="@dimen/sp_16"
+        android:background="@drawable/shape_dark_corner3"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20">
+        <TextView
+            android:id="@+id/tv_switch_account_or_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_account_or_register"
+            android:textSize="@dimen/sp_14"
+            android:textColor="#0A7FB6"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/dp_18"/>
+        <TextView
+            android:id="@+id/tv_forget_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forget_pwd"
+            android:textSize="@dimen/sp_14"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_18"
+            android:textColor="#0A7FB6" />
+    </RelativeLayout>
+    
+</LinearLayout>

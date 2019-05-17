@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sleep.uulib">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 读取短信的权限 -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <!-- 打电话的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <permission
+        android:name="com.shqj.litouwang.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signature" />
+    <!-- 这里com.xiaomi.mipushdemo改成app的包名 -->
+    <uses-permission android:name="com.zjjyb.uulicai.permission.MIPUSH_RECEIVE" />
+
+    <!-- 这里com.xiaomi.mipushdemo改成app的包名 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 友盟统计 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5ad6a47eb27b0a058f000116" />
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="fcd17dd973dc04d22a81fe0a74a0d6bf" />
+
+        <activity android:name=".uubase.HtmlContentActivity"></activity>
+        <activity android:name=".uubase.HtmlUrlActivity"></activity>
+        <activity android:name=".account.LoginStepOneActivity"></activity>
+        <activity android:name=".account.LoginStepTwoActivity"></activity>
+        <activity android:name=".account.RegistActivity"></activity>
+        <activity android:name=".account.IdentificationActivity"></activity>
+        <activity android:name=".account.ForgetLoginPwdActivity"></activity>
+        <activity
+            android:launchMode="singleTask"
+            android:name=".account.LoginActivity"
+            android:theme="@style/LoginTheme"></activity>
+        <activity
+            android:launchMode="singleTask"
+            android:name=".account.GestrueActivity"></activity>
+    </application>
+
+</manifest>

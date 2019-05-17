@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.shqj.arrange.fragment.ProductIntroductionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_25"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_introduction_with_colon"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_product_introduction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.5"
+            android:textColor="@color/color_969696"
+            android:textSize="@dimen/sp_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_22"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_safeguard_with_colon"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_product_safeguard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.5"
+            android:textColor="@color/color_969696"
+            android:textSize="@dimen/sp_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_use_of_funds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_22"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/use_of_funds_with_colon"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_use_of_funds"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.5"
+            android:textColor="@color/color_969696"
+            android:textSize="@dimen/sp_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_source_of_repayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_22"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/source_of_repayment_with_colon"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_source_of_repayment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingMultiplier="1.5"
+            android:textColor="@color/color_969696"
+            android:textSize="@dimen/sp_13" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_1"
+        android:layout_marginTop="@dimen/dp_12"
+        android:background="@color/color_f2f2f2" />
+    <!-- 借款协议 -->
+    <LinearLayout
+        android:id="@+id/ll_loan_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/loan_agreement"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_9"
+            android:layout_height="@dimen/dp_16"
+            android:src="@mipmap/icon_black_right_arrow" />
+    </LinearLayout>
+    <!-- 投资有风险提示 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_28"
+        android:background="@color/color_f2f2f2"
+        android:gravity="center"
+        android:text="@string/project_detail_warm_tips"
+        android:textColor="@color/color_969696"
+        android:textSize="@dimen/sp_10" />
+
+</LinearLayout>

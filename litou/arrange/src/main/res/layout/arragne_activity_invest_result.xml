@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.shqj.arrange.activity.InvestResultActivity">
+
+    <ImageView
+        android:id="@+id/iv_status_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_90"
+        android:src="@mipmap/icon_result_success" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_24"
+        android:text="@string/string_invest_success"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_15" />
+
+    <!-- 产品名称 -->
+    <LinearLayout
+        android:id="@+id/ll_bid_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_77"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_70"
+        android:paddingRight="@dimen/dp_70">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="产品名称："
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13" />
+
+        <TextView
+            android:id="@+id/tv_bid_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13"
+            tools:text="U企贷171202" />
+    </LinearLayout>
+
+    <!-- 投资金额 -->
+    <LinearLayout
+        android:id="@+id/ll_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_70"
+        android:paddingRight="@dimen/dp_70">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="投资金额："
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13"
+            tools:text="10000元" />
+    </LinearLayout>
+
+    <!-- 积分收益 -->
+    <LinearLayout
+        android:id="@+id/ll_integral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:paddingLeft="@dimen/dp_70"
+        android:paddingRight="@dimen/dp_70">
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="积分收益："
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_integral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13"
+            tools:text="10积分" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_btn2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_42"
+            android:layout_weight="1"
+            android:background="@color/color_969696"
+            android:gravity="center"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_12" />
+
+        <Button
+            android:id="@+id/bt_btn1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_42"
+            android:layout_weight="1"
+            android:background="@mipmap/top_bg"
+            android:gravity="center"
+            android:text="继续投资"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_12" />
+
+
+    </LinearLayout>
+</LinearLayout>

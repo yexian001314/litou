@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:layout_height="match_parent"
+    tools:context="com.shqj.mine.activity.HelpCenterActivity">
+    <net.lucode.hackware.magicindicator.MagicIndicator
+        android:id="@+id/project_detail_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:background="@color/white"
+        android:tag="sticky" />
+
+    <com.sleep.commonlib.widget.wrappingpager.WrappingViewPager
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/dp_10"
+        android:id="@+id/project_detail_viewpager"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

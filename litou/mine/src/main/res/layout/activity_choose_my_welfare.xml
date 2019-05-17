@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/choose_welfare_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shqj.mine.activity.ChooseMyWelfareActivity">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/choose_welfare_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"/>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

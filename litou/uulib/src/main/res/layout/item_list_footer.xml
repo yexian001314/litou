@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:id="@+id/rotation_footer_progress"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#eeeeee"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="footer_loading.json"
+        app:lottie_loop="true"/>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="-- 我也是有底线的 --"
+            android:textColor="@android:color/darker_gray"/>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/loading_error_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="-- 加载失败 --"
+            android:textColor="@android:color/darker_gray"/>
+    </LinearLayout>
+</RelativeLayout>

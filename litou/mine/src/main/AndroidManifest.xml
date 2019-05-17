@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shqj.mine">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.shqj.mine.activity.ChooseMyWelfareActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.ModifyLoginPwdActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.ModifyTradingPwdActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.SetTradingPwdActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.PersonalDataActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.FinancialDetailActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.MyInvestActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.PaymentScheduleActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.MyWelfareActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.SecuritySettingActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.RechargeActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.WithdrawActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.BindBankCardActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.RechargeLimitIntroduceActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.ChooseTicketActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.MyInvestDetailActivity"></activity>
+        <activity android:name="com.shqj.mine.activity.HelpCenterActivity"></activity>
+    </application>
+
+</manifest>

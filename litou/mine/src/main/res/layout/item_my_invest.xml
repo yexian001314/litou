@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:dash="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_10"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dp_17"
+    android:paddingLeft="@dimen/dp_6"
+    android:paddingRight="@dimen/dp_6"
+    android:paddingTop="@dimen/dp_6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_project_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:text="奔驰E260LXX"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/tv_project_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_14"
+            android:visibility="gone"
+            tools:text="NO.110607" />
+
+        <TextView
+            android:id="@+id/tv_project_pay_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:layout_weight="1"
+            android:text="（一次性还本付息）"
+            android:textColor="@color/color_969696"
+            android:textSize="@dimen/sp_14" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_6"
+            android:layout_height="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_13"
+            android:src="@mipmap/icon_black_right_arrow" />
+    </LinearLayout>
+    <!-- tv_project_id不需要 -->
+
+    <com.sleep.uulib.widget.DashedLineView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_marginRight="@dimen/dp_6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_arrow_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_13"
+                android:gravity="left"
+                android:text="@string/invest_amount_without_colon"
+                android:textColor="@color/color_969696"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:id="@+id/tv_invest_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_17"
+                android:text="100元"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_arrow_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_13"
+                android:gravity="left"
+                android:text="@string/annual_earnings"
+                android:textColor="@color/color_969696"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:id="@+id/tv_earnings_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_17"
+                android:gravity="center_horizontal"
+                android:text="15%"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_rate_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_13"
+                android:gravity="center_horizontal"
+                android:text="@string/interest_to_be_collected"
+                android:textColor="@color/color_969696"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:id="@+id/tv_interest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_17"
+                android:gravity="center_horizontal"
+                android:text="100元"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_pay_date_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_13"
+                android:gravity="left"
+                android:paddingLeft="@dimen/dp_10"
+                android:text="期数"
+                android:textColor="@color/color_969696"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:id="@+id/tv_pay_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_17"
+                android:gravity="center_horizontal"
+                android:paddingLeft="@dimen/dp_10"
+                android:text="1/6"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_user_invest_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@mipmap/icon_down_arrow" />
+
+    </LinearLayout>
+
+    <!--<com.sleep.uulib.widget.DashedLineView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0.5dp"-->
+
+    <!--android:layout_marginLeft="@dimen/dp_6"-->
+    <!--android:layout_marginRight="@dimen/dp_6"/>-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/dp_38">-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv_deadline"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_marginLeft="@dimen/dp_10"-->
+    <!--android:textSize="@dimen/sp_12"-->
+    <!--android:textColor="@color/dark_gray"-->
+    <!--android:text="30天后到期"/>-->
+    <!--<Button-->
+    <!--android:id="@+id/bt_contract"-->
+    <!--android:layout_width="@dimen/dp_60"-->
+    <!--android:layout_height="@dimen/dp_24"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="@dimen/dp_10"-->
+    <!--android:textSize="@dimen/sp_10"-->
+    <!--android:text="@string/view_contract"-->
+    <!--android:textColor="@color/colorAccent"-->
+    <!--android:visibility="gone"-->
+    <!--android:background="@drawable/shape_yellow_stroke_corner14"/>-->
+
+    <!--</RelativeLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.shqj.arrange.fragment.RelateInformationFragment"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_26"
+            android:text="资料证明："
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_13" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/relate_information_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_14"
+            android:layout_marginTop="@dimen/dp_14" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_not_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_300"
+        android:gravity="center"
+        android:text="为保护债务人信息\n此项目详情仅供已投资人查看\n感谢您的理解与配合"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/sp_18"
+        android:visibility="invisible" />
+</RelativeLayout>

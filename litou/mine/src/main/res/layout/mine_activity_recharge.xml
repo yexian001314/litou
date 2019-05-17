@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.shqj.mine.activity.RechargeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/white"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/iv_bank_icon"
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginLeft="@dimen/dp_12" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/background_color" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_bank_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_14"
+                        tools:text="" />
+
+                    <TextView
+                        android:id="@+id/tv_bank_limit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_9"
+                        android:textColor="@color/color_969696"
+                        android:textSize="@dimen/sp_12"
+                        tools:text="" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/dp_42">-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/iv_arrow"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="@dimen/dp_29"-->
+            <!--android:src="@mipmap/icon_recharge_arrow" />-->
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/ll_arrow"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="@dimen/dp_44"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/icon_bank_card"-->
+
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_bank_name"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/dp_8"-->
+            <!--android:text="银行卡"-->
+            <!--android:textColor="@color/color_6b6b6b"-->
+            <!--android:textSize="@dimen/sp_11" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="@dimen/dp_44"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/icon_local_card"-->
+
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_can_use_balance"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="@dimen/dp_8"-->
+            <!--android:gravity="center"-->
+            <!--android:text="可用余额\n(300.00元)"-->
+            <!--android:textColor="@color/color_6b6b6b"-->
+            <!--android:textSize="@dimen/sp_11" />-->
+            <!--</LinearLayout>-->
+
+            <!--<android.support.v7.widget.CardView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/ll_arrow"-->
+            <!--android:layout_marginLeft="@dimen/dp_44"-->
+            <!--android:layout_marginRight="@dimen/dp_12"-->
+            <!--android:layout_marginTop="@dimen/dp_30"-->
+            <!--app:cardBackgroundColor="@color/white"-->
+            <!--app:cardCornerRadius="0dp"-->
+            <!--app:cardElevation="@dimen/dp_2"-->
+            <!--app:cardPreventCornerOverlap="true"-->
+            <!--app:cardUseCompatPadding="true">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_recharge_introductions"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="@dimen/dp_5"-->
+            <!--android:text="该行单笔限额10万，单日限额20万，单日仅限5笔成功交易"-->
+            <!--android:textColor="@color/color_6b6b6b"-->
+            <!--android:textSize="@dimen/sp_11" />-->
+            <!--</android.support.v7.widget.CardView>-->
+            <!--</RelativeLayout>-->
+            <TextView
+                android:id="@+id/tv_limt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:layout_marginLeft="14dp"
+                android:gravity="center_vertical"
+                android:text="限额说明"
+                android:textColor="@color/colo_f85449"
+                android:textSize="12dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_52"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/tv_title_recharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_16"
+                    android:text="@string/recharge_amount"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_12" />
+
+                <EditText
+                    android:id="@+id/et_money_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBaseline="@+id/tv_title_recharge"
+                    android:layout_marginLeft="@dimen/dp_16"
+                    android:layout_marginRight="@dimen/dp_60"
+                    android:layout_toRightOf="@+id/tv_title_recharge"
+                    android:background="@null"
+                    android:hint="@string/recharge_at_least_100_yuan"
+                    android:inputType="number"
+                    android:textColorHint="#dedede"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_16"
+                    android:text="@string/yuan_no"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_12" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/tv_sure"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_42"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="52dp"
+                android:layout_marginRight="52dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/shape_gray_corner"
+                android:clickable="false"
+                android:text="下一步"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_24"
+                android:layout_marginTop="@dimen/dp_43"
+                android:lineSpacingExtra="2dp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="@string/recharge_text"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

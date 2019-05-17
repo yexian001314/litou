@@ -1,0 +1,1 @@
+include ':app', ':commonlib', ':uulib', ':home', ':push', ':arrange', ':information', ':mine'

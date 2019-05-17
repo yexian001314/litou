@@ -1,0 +1,73 @@
+if (rootProject.ext.isDebug.toBoolean()) {
+    apply plugin: 'com.android.application'
+} else {
+    apply plugin: 'com.android.library'
+}
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+kapt {
+    arguments {
+        arg("moduleName", project.getName())
+    }
+}
+
+android {
+    compileSdkVersion rootProject.ext.compile_version
+    buildToolsVersion rootProject.ext.build_tool_version
+    defaultConfig {
+        if (rootProject.ext.isDebug.toBoolean()) {
+            applicationId "com.shqj.mine"
+        }
+        minSdkVersion rootProject.ext.min_sdk_version
+        targetSdkVersion rootProject.ext.target_sdk_version
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            if (rootProject.ext.isDebug.toBoolean()) {
+                //集成开发模式下排除debug文件夹中的所有Java文件
+                //同样debug文件夹也只是 自己建的   例如当前一个moudle需要一个入口 去进入
+                //可以在这个里面去创建一个入口的launchActivity
+                manifest.srcFile 'src/main/debug/AndroidManifest.xml'
+                java {
+                    exclude 'debug/**'
+                }
+            } else {
+                manifest.srcFile 'src/main/AndroidManifest.xml'
+                //如果当前是debug调试模式 那么导入的是  注意跟Java同级建一个debug文件夹
+                //release模式不需要的东西可以 放在moudle文件夹中  debug 文件夹名字只是示意
+
+            }
+
+
+            manifest.srcFile
+            'src/main/debug/AndroidManifest.xml'
+
+
+            manifest.srcFile
+            'src/main/debug/AndroidManifest.xml'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:support-v4:26.1.0'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile "com.alibaba:arouter-api:$arouter_api_version"
+    kapt "com.alibaba:arouter-compiler:$arouter_compiler_version"
+    compile project(':uulib')
+}

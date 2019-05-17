@@ -1,0 +1,329 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:2:1-215:12
+INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:2:1-215:12
+INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:2:1-215:12
+INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:2:1-215:12
+INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:2:1-215:12
+INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:2:1-215:12
+INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:2:1-215:12
+	package
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:3:5-36
+		INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+		INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:5:5-30
+		INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+		INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:4:5-28
+		INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+		INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+application
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:24:5-213:19
+service#com.taobao.accs.ChannelService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:26:9-36:19
+	android:process
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:29:13-39
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:27:13-58
+intent-filter#com.taobao.accs.intent.action.SERVICE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:30:13-32:29
+action#com.taobao.accs.intent.action.SERVICE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:31:17-80
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:31:25-77
+intent-filter#com.taobao.accs.intent.action.ELECTION
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:33:13-35:29
+action#com.taobao.accs.intent.action.ELECTION
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:34:25-78
+service#com.taobao.accs.data.MsgDistributeService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:38:9-44:19
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:39:13-69
+intent-filter#com.taobao.accs.intent.action.RECEIVE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:41:13-43:29
+action#com.taobao.accs.intent.action.RECEIVE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:42:17-80
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:42:25-77
+receiver#com.taobao.accs.EventReceiver
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:46:9-62:20
+	android:process
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:48:13-39
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:47:13-57
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:49:13-51:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:50:17-79
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:50:25-76
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:52:13-54:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:53:17-79
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:53:25-76
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:55:13-58:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:56:17-80
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:56:25-77
+data
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:57:17-50
+	android:scheme
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:57:23-47
+intent-filter#android.intent.action.USER_PRESENT
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:59:13-61:29
+action#android.intent.action.USER_PRESENT
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:60:17-77
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:60:25-74
+receiver#com.taobao.accs.ServiceReceiver
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:64:9-73:20
+	android:process
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:66:13-39
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:65:13-59
+intent-filter#com.taobao.accs.intent.action.COMMAND
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:67:13-69:29
+action#com.taobao.accs.intent.action.COMMAND
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:68:17-80
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:68:25-77
+intent-filter#com.taobao.accs.intent.action.START_FROM_AGOO
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:70:13-72:29
+action#com.taobao.accs.intent.action.START_FROM_AGOO
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:71:17-88
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:71:25-85
+service#com.taobao.accs.internal.AccsJobService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:75:9-78:41
+	android:process
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:78:13-39
+	android:permission
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:77:13-69
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:76:13-67
+service#com.taobao.accs.ChannelService$KernelService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:80:9-82:42
+	android:process
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:82:13-39
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:81:13-72
+service#org.android.agoo.accs.AgooService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:84:9-90:19
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:86:13-36
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:85:13-61
+service#com.umeng.message.UmengIntentService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:92:9-99:19
+	android:process
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:95:13-39
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:94:13-36
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:93:13-64
+intent-filter#org.agoo.android.intent.action.RECEIVE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:96:13-98:29
+action#org.agoo.android.intent.action.RECEIVE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:97:17-81
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:97:25-78
+service#com.umeng.message.XiaomiIntentService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:101:9-108:19
+	android:process
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:104:13-39
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:103:13-36
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:102:13-65
+receiver#com.taobao.agoo.AgooCommondReceiver
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:110:9-121:20
+	android:process
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:113:13-39
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:112:13-36
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:111:13-63
+intent-filter#${applicationId}.intent.action.COMMAND
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:114:13-116:29
+action#${applicationId}.intent.action.COMMAND
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:115:17-81
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:115:25-78
+service#com.umeng.message.UmengMessageIntentReceiverService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:123:9-130:19
+	android:process
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:126:13-39
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:125:13-36
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:124:13-79
+intent-filter#org.android.agoo.client.MessageReceiverService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:127:13-129:29
+action#org.android.agoo.client.MessageReceiverService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:128:17-89
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:128:25-86
+receiver#com.umeng.message.NotificationProxyBroadcastReceiver
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:132:9-134:40
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:134:13-37
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:133:13-80
+service#com.umeng.message.UmengMessageCallbackHandlerService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:136:9-154:19
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:138:13-37
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:137:13-80
+intent-filter#com.umeng.messge.registercallback.action
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:139:13-141:29
+action#com.umeng.messge.registercallback.action
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:140:17-83
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:140:25-80
+intent-filter#com.umeng.message.enablecallback.action
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:142:13-144:29
+action#com.umeng.message.enablecallback.action
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:143:17-82
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:143:25-79
+intent-filter#com.umeng.message.disablecallback.action
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:145:13-147:29
+action#com.umeng.message.disablecallback.action
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:146:17-83
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:146:25-80
+intent-filter#com.umeng.message.message.handler.action
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:148:13-150:29
+action#com.umeng.message.message.handler.action
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:149:17-83
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:149:25-80
+intent-filter#com.umeng.message.message.sendmessage.action
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:151:13-153:29
+action#com.umeng.message.message.sendmessage.action
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:152:17-87
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:152:25-84
+service#com.umeng.message.UmengDownloadResourceService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:156:9-158:40
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:158:13-37
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:157:13-74
+provider#com.umeng.message.provider.MessageProvider
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:160:9-165:20
+	android:authorities
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:162:13-65
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:163:13-37
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:161:13-70
+grant-uri-permission
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:164:13-62
+	android:pathPattern
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:164:35-59
+service#com.xiaomi.mipush.sdk.PushMessageHandler
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:168:9-171:39
+	android:enabled
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:170:13-35
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:171:13-36
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:169:13-68
+service#com.xiaomi.mipush.sdk.MessageHandleService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:173:9-175:38
+	android:enabled
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:175:13-35
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:174:13-70
+receiver#org.android.agoo.xiaomi.MiPushBroadcastReceiver
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:177:9-186:20
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:179:13-36
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:178:13-75
+intent-filter#com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:180:13-182:29
+action#com.xiaomi.mipush.RECEIVE_MESSAGE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:181:17-76
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:181:25-73
+intent-filter#com.xiaomi.mipush.ERROR
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:183:13-185:29
+action#com.xiaomi.mipush.ERROR
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:184:17-66
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:184:25-63
+receiver#org.android.agoo.huawei.HuaWeiReceiver
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:189:9-196:20
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:189:19-72
+intent-filter#com.huawei.android.push.intent.RECEIVE+com.huawei.android.push.intent.REGISTRATION+com.huawei.intent.action.PUSH+com.huawei.intent.action.PUSH_STATE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:190:13-195:29
+action#com.huawei.android.push.intent.REGISTRATION
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:191:17-86
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:191:25-83
+action#com.huawei.android.push.intent.RECEIVE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:192:17-81
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:192:25-78
+action#com.huawei.intent.action.PUSH
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:193:17-72
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:193:25-69
+action#com.huawei.intent.action.PUSH_STATE
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:194:17-78
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:194:25-75
+service#com.meizu.cloud.pushsdk.NotificationService
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:199:9-201:39
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:201:13-36
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:200:13-71
+receiver#com.meizu.cloud.pushsdk.SystemReceiver
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:203:9-211:20
+	android:exported
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:205:13-37
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:204:13-66
+intent-filter#android.intent.category.DEFAULT+com.meizu.cloud.pushservice.action.PUSH_SERVICE_START
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:206:13-210:29
+action#com.meizu.cloud.pushservice.action.PUSH_SERVICE_START
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:207:17-96
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:207:25-93
+category#android.intent.category.DEFAULT
+ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:209:17-76
+	android:name
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml:209:27-73
+uses-sdk
+INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+		INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+		ADDED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml
+		INJECTED from E:\demo\LiTouWang_Android-master\litou\push\AndroidManifest.xml

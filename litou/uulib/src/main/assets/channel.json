@@ -1,0 +1,183 @@
+[
+  {
+    "channelId": 1059,
+    "channelAppName": "LETV",
+    "channelName": "乐视"
+  },
+  {
+    "channelId": 1043,
+    "channelAppName": "KU_AN",
+    "channelName": "酷安"
+  },
+  {
+    "channelId": 1042,
+    "channelAppName": "YOU_YI",
+    "channelName": "优异"
+  },
+  {
+    "channelId": 1041,
+    "channelAppName": "SAMSUNG",
+    "channelName": "三星"
+  },
+  {
+    "channelId": 1040,
+    "channelAppName": "JI_FENG",
+    "channelName": "机锋"
+  },
+  {
+    "channelId": 1038,
+    "channelAppName": "N_DUO",
+    "channelName": "N多"
+  },
+  {
+    "channelId": 1037,
+    "channelAppName": "AN_ZHI",
+    "channelName": "安智"
+  },
+  {
+    "channelId": 1036,
+    "channelAppName": "CHUI_ZI",
+    "channelName": "锤子"
+  },
+  {
+//    "channelId": 1035,
+    "channelId": 1090,
+    "channelAppName": "BACKGROUND",
+    "channelName": "后台"
+  },
+  {
+    "channelId": 1034,
+    "channelAppName": "XIAO_MI",
+    "channelName": "小米"
+  },
+  {
+    "channelId": 1033,
+    "channelAppName": "ALI",
+    "channelName": "阿里"
+  },
+  {
+    "channelId": 1032,
+    "channelAppName": "WEI_SHI",
+    "channelName": "360"
+  },
+  {
+    "channelId": 1044,
+    "channelAppName": "JIN_LI",
+    "channelName": "金立"
+  },
+  {
+    "channelId": 1045,
+    "channelAppName": "MU_MA_YI",
+    "channelName": "木蚂蚁"
+  },
+  {
+    "channelId": 1046,
+    "channelAppName": "SU_NING",
+    "channelName": "苏宁"
+  },
+  {
+    "channelId": 1058,
+    "channelAppName": "XY",
+    "channelName": "XY"
+  },
+  {
+    "channelId": 1057,
+    "channelAppName": "LETV",
+    "channelName": "海信"
+  },
+  {
+    "channelId": 1056,
+    "channelAppName": "MAO_PAO",
+    "channelName": "冒泡"
+  },
+  {
+    "channelId": 1055,
+    "channelAppName": "LIAN_TONG",
+    "channelName": "联通"
+  },
+  {
+    "channelId": 1054,
+    "channelAppName": "YI_DONG",
+    "channelName": "移动"
+  },
+  {
+    "channelId": 1053,
+    "channelAppName": "TIAN_YI",
+    "channelName": "天翼"
+  },
+  {
+    "channelId": 1051,
+    "channelAppName": "SOU_GOU",
+    "channelName": "搜狗"
+  },
+  {
+    "channelId": 1050,
+    "channelAppName": "AN_XIA",
+    "channelName": "安下"
+  },
+  {
+    "channelId": 1049,
+    "channelAppName": "KEKE",
+    "channelName": "可可"
+  },
+  {
+    "channelId": 1048,
+    "channelAppName": "MOBILE_DAD",
+    "channelName": "手机爸爸"
+  },
+  {
+    "channelId": 1047,
+    "channelAppName": "ZTE",
+    "channelName": "中兴"
+  },
+  {
+    "channelId": 1031,
+    "channelAppName": "HUA_WEI",
+    "channelName": "华为"
+  },
+  {
+    "channelId": 1030,
+    "channelAppName": "MEI_ZU",
+    "channelName": "魅族"
+  },
+  {
+    "channelId": 1052,
+    "channelAppName": "LENVOO",
+    "channelName": "联想"
+  },
+  {
+    "channelId": 1039,
+    "channelAppName": "YING_YONG_HUI",
+    "channelName": "应用汇"
+  },
+  {
+    "channelId": 1026,
+    "channelAppName": "VIVO",
+    "channelName": "VIVO"
+  },
+  {
+    "channelId": 1060,
+    "channelAppName": "OPPO",
+    "channelName": "OPPO"
+  },
+  {
+    "channelId": 1061,
+    "channelAppName": "BAI_DU",
+    "channelName": "百度"
+  },
+  {
+    "channelId": 1062,
+    "channelAppName": "TENCENT",
+    "channelName": "腾讯"
+  },
+  {
+    "channelId": 1078,
+    "channelAppName": "TOUTIAO_1",
+    "channelName": "今日头条-1号"
+  },
+  {
+    "channelId": 1079,
+    "channelAppName": "TOUTIAO_2",
+    "channelName": "今日头条-2号"
+  }
+]

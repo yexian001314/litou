@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_base_title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_title_height"
+    android:orientation="vertical"
+    android:background="@mipmap/top_bg"
+    android:paddingTop="@dimen/dp_15">
+
+    <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_back" />
+
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/common_margin_left"
+        android:gravity="center_vertical"
+        android:text="返回"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/common_font_size"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_back"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/common_margin_left"
+        android:gravity="center_vertical"
+        android:text="筛选"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/common_font_size"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/common_margin_left"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/common_font_title_size"
+        tools:text="Title" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">information</string>
+    <string name="title_feedback">意见反馈</string>
+    <string name="commit_success">提交成功</string>
+</resources>

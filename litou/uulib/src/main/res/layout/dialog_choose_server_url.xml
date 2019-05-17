@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="@dimen/px_2"
+          android:background="@color/color_b3b3b3"
+    />
+    <TextView
+        android:id="@+id/tv_online_environment"
+        android:layout_width="match_parent"
+              android:layout_height="@dimen/dp_40"
+              android:text="正式环境：https://www.uumoney.cn/"
+              android:gravity="center"
+              android:textColor="@color/black"
+              android:textSize="@dimen/sp_13"
+    />
+    <View android:layout_width="match_parent"
+          android:layout_height="@dimen/px_2"
+          android:background="@color/color_b3b3b3"
+    />
+    <TextView
+        android:id="@+id/tv_test_environment"
+        android:layout_width="match_parent"
+              android:layout_height="@dimen/dp_40"
+              android:text="测试环境：http://120.79.91.39/"
+              android:gravity="center"
+              android:textColor="@color/black"
+              android:textSize="@dimen/sp_13"
+    />
+    <View android:layout_width="match_parent"
+          android:layout_height="@dimen/px_2"
+          android:background="@color/color_b3b3b3"
+    />
+    <TextView
+        android:id="@+id/tv_dev_environment"
+        android:layout_width="match_parent"
+              android:layout_height="@dimen/dp_40"
+              android:text="开发环境：http://119.23.48.207:8080/"
+              android:gravity="center"
+              android:textColor="@color/black"
+              android:textSize="@dimen/sp_13"
+    />
+    <View android:layout_width="match_parent"
+          android:layout_height="@dimen/px_2"
+          android:background="@color/color_b3b3b3"
+    />
+</LinearLayout>
